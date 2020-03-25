@@ -1,0 +1,112 @@
+* {
+    font-family: Chilanka;
+}
+
+div#menu {
+    /* Centralizar o menu */
+}
+
+div.menu {
+    width: 250px;
+    height: 250px;
+
+    display: inline-block;
+    margin: 5px;
+
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+
+button#novoJogo {
+    width: 200px;
+    height: 50px;
+    
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+    background-color: #c33;
+    box-shadow: 5px 5px 5px rgba(0, 0,0 , 0.7);    
+
+    font-size: 20pt;
+}
+
+div#tabuleiro {
+    width: 454px;
+    height: 454px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    margin: auto;
+    top: 80px;
+    padding: 0px;
+}
+
+div.posições {
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 120pt;
+    text-transform: lowercase;
+}
+
+div#posição00 {
+    border-right: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+div#posição01 {
+    border-left: solid 1px #000;
+    border-right: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+div#posição02 {
+    border-left: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+div#posição10 {
+    border-top: solid 1px #000;
+    border-right: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+div#posição11 {
+    border: solid 1px #000;
+}
+
+div#posição12 {
+    border-top: solid 1px #000;
+    border-left: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+div#posição20 {
+    border-top: solid 1px #000;
+    border-right: solid 1px #000;
+}
+
+div#posição21 {
+    border-left: solid 1px #000;
+    border-top: solid 1px #000;
+    border-right: solid 1px #000;
+}
+
+div#posição22 {
+    border-left: solid 1px #000;
+    border-top: solid 1px #000;
+}
